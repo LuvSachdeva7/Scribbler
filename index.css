@@ -120,3 +120,25 @@ body{
     cursor: pointer;
     font-size: 14px;
 }
+.all_posts{
+    padding: 16px 30px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    margin-right: 16px;
+    font-size: 14px;
+
+}
+.create_posts{
+    padding: 16px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    margin-right: 16px;
+    font-size: 14px;
+
+}
+.section-button{
+    text-align: center;
+    margin-top: 15%;
+}
