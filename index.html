@@ -74,7 +74,8 @@
 
                     </div>
                 </div>
-        <form>
+        </form>
+    <form>
              <div class="modal-signin" id="signin_page">
                  <div class="modal-content">
                      <div class="modal-header">
@@ -116,13 +117,48 @@
 
 </div>
             </div>
+    </form>
 <div class="post-button-wrapper">
 <div class="section-button">
-    <button class="all_posts">All Posts</button>
-    <button class="create_posts">Create Posts</button>
+    <button class="all_posts" >All Posts</button>
+    <button class="create_posts" onclick="open_createposts_modal()">Create Posts</button>
 
 </div>
 </div>
+    <form>
+<!--     Create Post Modal-->
+    <div class="modal_create_posts" id="create_posts_page">
+        <div class="modal-content_2">
+            <div class="modal-header">
+                <span class="getstarted">Pen Your Post</span>
+                <span class="cross" onclick="close_createposts_modal()">X</span>
+
+            </div>
+
+            <div class="horizontal-line">
+                <hr>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <div class="username">
+                        <label>Title</label>
+                        <div><input class="fill-up" type="text" placeholder="Enter title of your post" required></input></div>
+                    </div>
+                </div>
+                    <div class="form-group">
+                        <div class="username">
+                            <label>Contents</label>
+                            <div><input class="con" type="text" placeholder="Enter the contents of your post" required></input></div>
+                        </div>
+            </div>
+                <div class="form-group">
+                    <button class="submit" onclick=""> Create</button>
+                </div>
+
+
+    </div>
+</div>
+    </form>
 </div>
 
 <script src="index.js"></script>
