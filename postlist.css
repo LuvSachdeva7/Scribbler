@@ -7,27 +7,42 @@ body{
     background-color: #ffeedd;
 
 }
+.post-wrapper{
+    padding: 10px 30px;
+}
+.post-layout{
+    width: 40%;
+    
+    display: inline-block;
+    margin: 10px ;
+    box-shadow: antiquewhite;
+    border: 2px solid white;
+    
+}
 .post{
+    width: 80%;
+    padding: 10px 30 px;
+   text-align: center;
+    margin: 10px auto;
+   
+}
+.post-structure{
     display: flex;
+}
+.post-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    background-color: white;
+    padding: 36px 10px ;
+}
 
-}
-.heading{
-    font-family: 'Montez', cursive;
-    color: blue;
-    margin-left: 50px;
-    margin-top: 30px;
-}
-.sub-heading{
-    font-family: 'Ubuntu Mono', monospace;
-    margin-left: 50px;
+.section{
+    background-color:#e0dada;
+    padding: 15px 25px ;
 }
 
-.row-1{
-    display: flex;
-}
-.row-2{
-    display: flex;
-}
 .dot {
 
     height: 10px;
@@ -78,73 +93,12 @@ body{
 }
 
 
-.header-1{
-    display: flex;
-}
+
 .button-1{
     margin-left: 86rem;
     margin-top: 30px;
 }
-.Sign_Up{
-    background-color: blue;
-    color: white;
-    padding: 15px 22px;
-    font-size: 15px;
-    cursor: pointer;
-}
-.Sign_Ip{
-    background-color: blue;
-    color: white;
-    padding: 15px 22px;
-    margin-left: 25px;
-    font-size: 15px;
-    cursor: pointer;
-}
-.first-post{
-    display: flex;
 
-
-    width: 32%;
-    height: 11rem;
-
-    margin-top: 6rem;
-}
-.second-post{
-    display: flex;
-
-
-    width: 32%;
-    height: 11rem;
-
-    margin-top: 6rem;
-}
-.third-post{
-    display: flex;
-
-
-    width: 32%;
-    height: 11rem;
-
-    margin-top: 16rem;
-}
-.fourth-post{
-    display: flex;
-
-
-    width: 32%;
-    height: 11rem;
-
-    margin-top: 6rem;
-}
-.fifth-post{
-    display: flex;
-
-
-    width: 32%;
-    height: 11rem;
-
-    margin-top: 6rem;
-}
 .fa{
     margin-left: 50px;
     font-size: 20px;
@@ -153,30 +107,5 @@ body{
 .fa:hover{
     cursor: pointer;
 }
-.content-1{
-    background-color: #ccc5c5;
-    display: flex;
-    flex-direction: column;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-.name-1{
-    font-size: 1.2rem;
-    color: grey;
-    background-color: white;
-    padding: 78px 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-.para-1{
-    margin-top: 45px;
 
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.post-heading-1{
-    margin-left: 10px;
-    font-size: 25px;
-    color: #4c4141;
-}
 
